@@ -1,48 +1,41 @@
-# 📚 Staj Takip Sistemi
+# Internship Tracking System (Staj Takip Sistemi)
 
-PHP tabanlı, kapsamlı staj yönetim ve koordinasyon platformu. Öğrenciler, firmalar ve koordinatörler arasında etkili iş birliğini sağlayan modern bir web uygulaması.
+A PHP-based internship management and coordination platform that digitizes the internship process for universities. The system facilitates collaboration between students, companies, and coordinators with role-based workflows for application, approval, and reporting.
 
-## 🎯 Proje Hakkında
+## Overview
 
-Staj Takip Sistemi, üniversitelerin staj süreçlerini dijitalleştirerek, öğrenci-firma-koordinatör arasındaki iletişimi kolaylaştıran kapsamlı bir yönetim sistemidir. Platform, tüm staj faaliyetlerinin merkezi bir noktadan yönetilmesini sağlar.
+This project implements a modern web application to manage internship processes. It centralizes student applications, company postings, coordinator approvals, weekly reporting, and basic evaluation workflows to simplify and standardize internships administration.
 
-## ✨ Özellikler
+## Key Features
 
-### 🔐 Çok Seviyeli Kullanıcı Yönetimi
-- **Koordinatör**: Sistem yönetimi ve onay süreçleri
-- **Firma**: İş ilanları ve öğrenci değerlendirmesi
-- **Öğrenci**: Başvuru ve raporlama
+- Multi-level user roles:
+  - Coordinator: system administration and approvals
+  - Company: create job postings and evaluate candidates
+  - Student: apply for internships and submit reports
+- Internship posting creation and publishing
+- Application management and approval workflow
+- Weekly report submission and tracking
+- Responsive and modern user interface
+- Input validation and basic data security
 
-### 📋 Temel İşlevler
-- ✅ Kullanıcı rolleri ve yetkilendirme sistemi
-- ✅ Firma kayıt ve yönetimi
-- ✅ Staj ilanı oluşturma ve yayınlama
-- ✅ Başvuru yönetimi ve onay sistemi
-- ✅ Haftalık rapor yönetimi
-- ✅ Responsive ve modern kullanıcı arayüzü
-- ✅ Veri güvenliği ve validasyon
+## Technology Stack
 
-## 🛠️ Teknoloji Stack
+- PHP — Backend (approx. 74.5%)
+- MySQL — Database
+- HTML5 — Structure
+- CSS3 — Styling (approx. 25.5%)
+- JavaScript — Client-side interactions
 
-| Teknoloji | Açıklama |
-|-----------|----------|
-| **PHP** | Backend (74.5%) |
-| **MySQL** | Veritabanı yönetimi |
-| **HTML5** | İçerik yapısı |
-| **CSS3** | Stilendirme (25.5%) |
-| **JavaScript** | İstemci tarafı etkileşimler |
+## Requirements
 
-## 📦 Kurulum ve Çalıştırma
+- PHP 7.4 or higher
+- MySQL 5.7 or higher (or compatible MariaDB)
+- Apache or Nginx web server
+- Composer (optional, if used for dependencies)
 
-### Gereksinimler
-- PHP 7.4 veya üstü
-- MySQL 5.7 veya üstü
-- Apache veya Nginx web sunucusu
-- Composer (opsiyonel)
+## Installation
 
-### Adım Adım Kurulum
-
-1. **Projeyi klonlayın**
+1. Clone the repository:
    ```bash
    git clone https://github.com/samettas52/sataj_sistemi.git
    cd sataj_sistemi
