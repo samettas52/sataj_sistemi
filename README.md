@@ -1,38 +1,48 @@
-# Staj Takip Sistemi
+# 📚 Staj Takip Sistemi
 
-PHP tabanlı staj yönetim sistemi.
+PHP tabanlı, kapsamlı staj yönetim ve koordinasyon platformu. Öğrenciler, firmalar ve koordinatörler arasında etkili iş birliğini sağlayan modern bir web uygulaması.
 
-## Özellikler
+## 🎯 Proje Hakkında
 
-- Kullanıcı rolleri (Koordinatör, Firma, Öğrenci)
-- Firma yönetimi
-- Staj ilanları
-- Başvuru sistemi
-- Haftalık raporlama
-- Modern arayüz
+Staj Takip Sistemi, üniversitelerin staj süreçlerini dijitalleştirerek, öğrenci-firma-koordinatör arasındaki iletişimi kolaylaştıran kapsamlı bir yönetim sistemidir. Platform, tüm staj faaliyetlerinin merkezi bir noktadan yönetilmesini sağlar.
 
-## Kurulum
+## ✨ Özellikler
 
-1. Veritabanı oluşturun:
-   ```sql
-   CREATE DATABASE staj_sistemi;
-   ```
+### 🔐 Çok Seviyeli Kullanıcı Yönetimi
+- **Koordinatör**: Sistem yönetimi ve onay süreçleri
+- **Firma**: İş ilanları ve öğrenci değerlendirmesi
+- **Öğrenci**: Başvuru ve raporlama
 
-2. `config.php` dosyasında veritabanı bilgilerinizi güncelleyin.
+### 📋 Temel İşlevler
+- ✅ Kullanıcı rolleri ve yetkilendirme sistemi
+- ✅ Firma kayıt ve yönetimi
+- ✅ Staj ilanı oluşturma ve yayınlama
+- ✅ Başvuru yönetimi ve onay sistemi
+- ✅ Haftalık rapor yönetimi
+- ✅ Responsive ve modern kullanıcı arayüzü
+- ✅ Veri güvenliği ve validasyon
 
-3. Web sunucusunda projeyi çalıştırın.
+## 🛠️ Teknoloji Stack
 
-## Kullanıcı Rolleri
+| Teknoloji | Açıklama |
+|-----------|----------|
+| **PHP** | Backend (74.5%) |
+| **MySQL** | Veritabanı yönetimi |
+| **HTML5** | İçerik yapısı |
+| **CSS3** | Stilendirme (25.5%) |
+| **JavaScript** | İstemci tarafı etkileşimler |
 
-- **Koordinatör**: Firma ekleme, başvuru onaylama, raporlama
-- **Firma**: Staj ilanı açma, öğrenci değerlendirme
-- **Öğrenci**: Başvuru yapma, haftalık rapor girme
+## 📦 Kurulum ve Çalıştırma
 
-## Teknolojiler
+### Gereksinimler
+- PHP 7.4 veya üstü
+- MySQL 5.7 veya üstü
+- Apache veya Nginx web sunucusu
+- Composer (opsiyonel)
 
-- PHP
-- MySQL
-- HTML5
-- CSS3
-- JavaScript
+### Adım Adım Kurulum
 
+1. **Projeyi klonlayın**
+   ```bash
+   git clone https://github.com/samettas52/sataj_sistemi.git
+   cd sataj_sistemi
